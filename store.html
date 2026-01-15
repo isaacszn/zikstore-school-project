@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZikStore - Buy gadgets, accessories and lots more in one place.</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        @font-face {
+            font-family: "Poppins";
+            src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .serif {
+            font-family: serif;
+        }
+    </style>
+</head>
+
+<body class="mt-[150px] lg:mt-0 lg:pt-[78.3px]">
+    <header class="flex items-center py-5 px-6 justify-between bg-white fixed top-0 w-[100%] border border-gray-300">
+        <span class="serif text-3xl">ZikStore</span>
+        <span><i class="fa-solid fa-bell text-2xl text-blue-800 cursor-pointer lg:text-3xl hover:text-blue-900"></i></span>
+    </header>
+
+    <main class="lg:flex lg:flex-row gap-[40px] lg:text-lg">
+        <nav
+            class="mx-auto bg-gray-300 rounded-full w-[30%] flex items-center justify-evenly py-4 fixed left-[35%] bottom-12 border border-gray-500 lg:flex lg:flex-col lg:w-fit lg:px-5 lg:gap-5 lg:py-5 lg:h-fit lg:items-center lg:justify-center lg:mx-10 lg:my-[150px] lg:fixed lg:top-[20%] lg:left-[20px]">
+            <div>
+                <a href="/store.html"><i class="fa-solid fa-home text-blue-800 text-3xl lg:text-5xl cursor-pointer hover:text-blue-900"></i></a>
+            </div>
+            <div>
+                <a href="/cart.html"><i class="fa-solid fa-shop text-blue-800 text-3xl lg:text-5xl cursor-pointer hover:text-blue-900"></i></a>
+            </div>
+        </nav>
+
+        <div class="flex-1 lg:ml-[220px] lg:border lg:border-gray-500 lg:border-t-0 lg:border-r-0 lg:border-b-0 lg:pt-[60px] lg:pl-5">
+            <h1 class="text-5xl my-4 mx-5">Welcome, there! <!-- waving icon --></h1>
+            <p class="text-gray-500 text-xl mx-5">Start buying products...</p>
+
+            <div
+                class="bg-gray-200 border-gray-900 rounded-full w-[90%] py-3 px-8 mx-auto my-8 flex justify-between border border-gray-100 lg:w-[65%]">
+                <input type="text" name="search" id="search" placeholder="Search product" class="flex-1 outline-none">
+                <span><i class="fa-solid fa-search cursor-pointer hover:text-gray-600"></i></span>
+            </div>
+
+            <div>
+                <p class="mx-8 text-gray-800">> Accessories</p>
+                <div class="flex mx-auto gap-5 justify-evenly my-8 overflow-y w-[80%]">
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 1</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 2</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="mx-8 text-gray-800">> Gadgets</p>
+                <div class="flex mx-auto gap-5 justify-evenly my-8 overflow-y w-[80%]">
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 1</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 2</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="mx-8 text-gray-800">> Books</p>
+                <div class="flex mx-auto gap-5 justify-evenly my-8 overflow-y w-[80%]">
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 1</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                    <div
+                        class="flex flex-col justify-center items-center gap-5 bg-gray-300 text-black rounded-md p-5 w-[300px] h-[200px]">
+                        <span>Product 2</span>
+                        <button
+                            class="rounded-full bg-blue-800 py-2 px-4 text-white cursor-pointer hover:bg-blue-900">Add
+                            to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
